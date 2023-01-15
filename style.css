@@ -1,16 +1,13 @@
 :root {
-    --main-bg: #f5f5f5;
+    --main-bg: white;
     --main-text: black;
 }
 
 [data-theme="dark"] {
     --main-bg: #303030;
-    --main-text: #f5f5f5;
+    --main-text: white;
 }
 
-button {
-    color: var(--main-text);
-}
 
 body {
     background-color: var(--main-bg);
@@ -20,6 +17,10 @@ body {
 
 header {
     border-bottom: 1px solid black;
+    color: var(--main-text);
+}
+
+button {
     color: var(--main-text);
 }
 
