@@ -10,14 +10,31 @@
 
 
 body {
-    background-color: var(--main-bg);
     width: 100%;
     height: 100%;
 }
 
 header {
+    background-color: var(--main-bg);
     border-bottom: 1px solid black;
     color: var(--main-text);
+
+}
+
+.intro {
+    /* color: var(--main-text); */
+    text-align: center;
+    padding-top: 30vh;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0.4);
+}
+
+.hero {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: salmon;
 }
 
 button {
@@ -25,10 +42,12 @@ button {
 }
 
 article {
+    background-color: var(--main-bg);
     color: var(--main-text);
 }
 
 footer {
+    background-color: var(--main-bg);
     border-top: 1px solid black;
     color: var(--main-text);
     padding-bottom: 20px;
